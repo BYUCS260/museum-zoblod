@@ -14,7 +14,8 @@
     <router-view />
   </div>
   <div class="footer">
-    <router-link to="/admin">Admin</router-link>
+    <router-link class = "link" to="/admin">Admin</router-link>
+    <a class = "link" href="https://github.com/BYUCS260/museum-zoblod">Github</a>
   </div>
 </div>
 </template>
@@ -71,5 +72,8 @@ h1 {
 
 h2 {
   font-size: 14px;
+}
+.link{
+  padding: 10px;
 }
 </style>
