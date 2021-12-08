@@ -62,7 +62,7 @@ following there:
 ```
 server {
   listen 80;
-  server_name museum.yourdomain.com;
+  server_name museum.josephindustry.com;
   root /var/www/museum.yourdomain.com;
   index index.html;
   default_type "text/html";

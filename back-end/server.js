@@ -17,7 +17,7 @@ mongoose.connect('mongodb://127.0.0.1:27017/museum', {
 // Configure multer so that it will upload to '../front-en$
 const multer = require('multer')
 const upload = multer({
-  dest: '../front-end/public/images/',
+  dest: '/home/joel/museum-zoblod/front-end/public/images',
   limits: {
     fileSize: 10000000
   }
